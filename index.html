@@ -18,10 +18,15 @@
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+
 </head>
 <body>
   <div id="header"></div>
-  <div class="container-fluid">
+  <div class="container-fluid" id="comercial">
     <img src="http://placehold.it/728x90" alt="" class="img-responsive center-block">
   </div>
 
@@ -45,22 +50,88 @@
        </div>
       </div>
        
-       <div class="col-md-3">
+       <div class="col-md-3" id="times">
+          <div class="media">
+            <div class="media-left">
+              <a href=""><img class="media-object" src="http://placehold.it/100x75" alt="..."></a>
+            </div>
+            <div class="media-body" id="texto">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <a href=""><img class="media-object" src="http://placehold.it/100x75" alt="..."></a>
+            </div>
+            <div class="media-body" id="texto">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <a href=""><img class="media-object" src="http://placehold.it/100x75" alt="..."></a>
+            </div>
+            <div class="media-body" id="texto">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <a href=""><img class="media-object" src="http://placehold.it/100x75" alt="..."></a>
+            </div>
+            <div class="media-body" id="texto">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </div>
+          </div>
+
        </div>
 
         <div class="col-md-3">
+         <img src="http://placehold.it/300x380?text=Banner" alt="" class="img-responsive">
        </div>
 
     </div>
   </section>
 
+  <section id="jogos" class="container">
+   <div class="row" id="tabelas">
+  <div id="jogo1" class="col-md-3">
+  <script>getJogo('#jogo1');</script>
+  </div>
+
+<div class="col-md-3">
+  <img src="http://placehold.it/280x100?text=Jogo+2" alt="" class="img-responsive">
+</div>
+<div class="col-md-3">
+  <img src="http://placehold.it/280x100?text=Jogo+3" alt="" class="img-responsive" >
+</div>
+<div class="col-md-3">
+  <img src="http://placehold.it/280x100?text=Jogo+4" alt="" class="img-responsive" >
+</div>
+</div>
+
+<div class="row" id="tabelas">
+  <div class="col-md-3">
+    <img src="http://placehold.it/280x100?text=Jogo+5" alt="" class="img-responsive">
+  </div>
+  <div class="col-md-3">
+    <img src="http://placehold.it/280x100?text=Jogo+6" alt="" class="img-responsive">
+  </div>
+  <div class="col-md-3">
+    <img src="http://placehold.it/280x100?text=Jogo+7" alt="" class="img-responsive" >
+  </div>
+  <div class="col-md-3">
+    <img src="http://placehold.it/280x100?text=Jogo+8" alt="" class="img-responsive" >
+  </div>
+  </section>
+
   <div id="footer"></div>
       
     <!-- /container -->        
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
+
         <script>
           $(function(){
             $('#header').load("header.html", function(page) {
@@ -68,7 +139,6 @@
             });
           });
         </script>
-
         <script>
           $(function(){
             $('#footer').load("footer.html", function(page) {
