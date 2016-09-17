@@ -16,13 +16,18 @@
 }
 
 #jogo1{
-	background: #a0a0a0;
-	padding: 10px;
+	background-color: #282c33;
+	color: white;
+	margin: 0px;
 }
 
 
 #tabelas{
 	padding-bottom: 2%;
+}
+
+.jogo > div{
+	padding-top: 10px;
 }
 
 
