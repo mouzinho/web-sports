@@ -1,16 +1,11 @@
 /*
 Error: Invalid CSS after "$color ": expected ":", was "= white;"
-        on line 1 of sass/main.scss
+        on line 1 of sass/teste.scss
 
 1: $color = white;
-2: $primary-color: magenta;
-3: 
-4: body{
-5: 	background-color: $color;
-6: 	padding-top:50px;
 
 Backtrace:
-sass/main.scss:1
+sass/teste.scss:1
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
@@ -36,4 +31,4 @@ C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"$color \": expected \":\", was \"= white;\"\A         on line 1 of sass/main.scss\A \A 1: $color = white;\A 2: $primary-color: magenta;\A 3: \A 4: body{\A 5: 	background-color: $color;\A 6: 	padding-top:50px;"; }
+  content: "Error: Invalid CSS after \"$color \": expected \":\", was \"= white;\"\A         on line 1 of sass/teste.scss\A \A 1: $color = white;"; }

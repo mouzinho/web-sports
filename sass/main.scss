@@ -1,0 +1,36 @@
+$color = white;
+$primary-color: magenta;
+
+body{
+	background-color: $color;
+	padding-top:50px;
+	padding-bottom: 20px;
+}
+
+#comercial-header,
+#featured,
+#jogos{
+	margin-top:20px;
+}
+
+.jogo{
+	background-color: $primary-color;
+	color:white;
+	margin: 0px;
+	div{
+		padding-top: 10px;
+	}
+}
+
+.big-primary{
+	color: $color;
+	background-color: $primary-color;
+}
+
+@media(max-width: 768px){
+
+	#featured [class|=col],
+	#jogos [class|=col]{
+	margin-top: 15px;
+	}
+}
